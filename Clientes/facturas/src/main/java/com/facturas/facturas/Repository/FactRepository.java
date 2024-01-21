@@ -1,17 +1,17 @@
 package com.facturas.facturas.Repository;
 
+
+import com.facturas.facturas.Servicio.FactServicio;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
+public class FactRepository {
 
-public interface FactRepository extends package packageName;
+    @Autowired
+    FactServicio factServicio;
 
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-
-//Remove @RepositoryRestResource below to disable auto REST api:
-@RepositoryRestResource
-public interface repositoryName extends CrudRepository<FactModel, ID>{} {
-
-    
+    public FactServicio getFactServicio() {
+        return factServicio;
+    }
 }
