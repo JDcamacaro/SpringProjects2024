@@ -11,7 +11,4 @@ public class FactRepository {
     @Autowired
     FactServicio factServicio;
 
-    public FactServicio getFactServicio() {
-        return factServicio;
-    }
 }

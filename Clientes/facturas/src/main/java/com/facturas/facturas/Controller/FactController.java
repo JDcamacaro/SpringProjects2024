@@ -16,11 +16,5 @@ public class FactController {
     @Autowired
     FactRepository factRepository;
 
-    @GetMapping(path = "lista")
 
-
-
-    }
-
-    
 }
