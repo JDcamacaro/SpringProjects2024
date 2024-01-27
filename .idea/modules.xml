@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringProjects2024.iml" filepath="$PROJECT_DIR$/.idea/SpringProjects2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clientes/facturas/facturas.iml" filepath="$PROJECT_DIR$/Clientes/facturas/facturas.iml" />
     </modules>
   </component>
 </project>
