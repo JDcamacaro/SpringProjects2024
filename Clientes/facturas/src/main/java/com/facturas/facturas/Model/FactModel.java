@@ -1,19 +1,18 @@
 package com.facturas.facturas.Model;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
 public class FactModel {
 
 @Id
-@Column
-
-int ID;
-String Nombre;
-String Apellido;
-int Cedula;
+@GeneratedValue
+private Integer ID;
+private String Nombre;
+private String Apellido;
+private int Cedula;
 
 
 
